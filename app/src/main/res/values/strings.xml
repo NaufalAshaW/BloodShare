@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BloodShare</string>
+    <string name="edittext_hint_username"><font size="5">Username</font></string>
+    <string name="register_text">doesn`t have account? <b>Register</b></string>
+    <string name="edittext_hint"><font size="12">enter verification code here...</font></string>
+    <string name="resend_text">doesn`t get the code? <b>Resend</b></string>
+    <string name="search_text"><b>Search Donor</b></string>
+    <string name="need_text"><b>Blood Needed</b></string>
+    <string name="message_text"><b>Message</b></string>
+    <string name="donor_text"><b>Donor History</b></string>
+
+
+    <string-array name="bloodtype">
+        <item>Blood Type</item>
+    </string-array>
+
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
+</resources>

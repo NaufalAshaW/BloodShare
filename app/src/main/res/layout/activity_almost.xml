@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40B4E7"
+    tools:context=".AlmostActivity"
+    >
+
+    <TextView
+        android:id="@+id/flavortext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Almost There"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/flavortext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for registering with us. One more"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@id/flavortext1"/>
+
+    <TextView
+        android:id="@+id/flavortext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="step, you need to check your email"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@id/flavortext2"/>
+
+    <TextView
+        android:id="@+id/flavortext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to activate your account"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@id/flavortext3"/>
+
+    <Button
+        android:id="@+id/verif_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Verify"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#40B4E7"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        android:layout_below="@id/flavortext4"
+        android:layout_margin="50dp"/>
+</RelativeLayout>
